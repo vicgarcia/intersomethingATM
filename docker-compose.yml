@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  intersomething-atm:
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    command: /home/docker/code/docker/start.sh
+    volumes:
+      - .:/home/docker/code
+    ports:
+      - "8080:8080"
+

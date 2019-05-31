@@ -1,0 +1,12 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "slim/slim": "2.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntersomethingATM\\": "source/IntersomethingATM"
+        }
+    }
+}

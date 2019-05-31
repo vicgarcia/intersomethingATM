@@ -1,0 +1,22 @@
+# composer files
+vendor/
+composer.lock
+composer.phar
+
+# npm, bower files
+node_modules
+bower_components
+
+# compiled front end js
+public/*.js
+
+# sqlite database
+*.sqlite3
+
+# my run_dev_server script
+run_dev_server
+
+# junk files
+.DS_Store
+*.tmp
+*.log

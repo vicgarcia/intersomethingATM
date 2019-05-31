@@ -1,0 +1,19 @@
+{
+    "name": "intersomething-atm",
+    "version": "1.0",
+    "authors": [ "Vic Garcia <vic.garcia@outlook.com>" ],
+    "private": true,
+
+    "dependencies" : {
+        "requirejs": "latest",
+        "jquery": "latest"
+    },
+
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

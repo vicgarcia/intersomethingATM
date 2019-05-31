@@ -1,0 +1,77 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    height: 101%;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #333;
+    background-color: #ffffff;
+}
+
+.wrap {
+    width: 300px;
+    margin: 100px auto 100px auto;
+}
+
+#entry {
+    margin: 0 auto 20px auto;
+    border: 1px solid #333;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#message {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.keypad {
+    float: left;
+    width: 210px;
+}
+.keypad-row {
+    clear: both;
+}
+.keypad-key {
+    float: right;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.keypad-key:hover {
+    background-color: #444;
+}
+
+.options {
+    float: left;
+    width: 90px;
+}
+.option-key {
+    clear: both;
+    margin: 10px 10px 20px 10px;
+    width: 70px;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.option-key:hover {
+    background-color: #444;
+}
+.option-hidden {
+    display: none;
+}
