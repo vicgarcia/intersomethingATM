@@ -27,8 +27,8 @@ RUN curl -o /tmp/composer-setup.php https://getcomposer.org/installer \
 RUN apt-get -y install nodejs npm
 
 # install bower & grunt
-RUN npm install -g bower
-RUN npm install -g grunt
+RUN npm install -g bower \
+ && npm install -g grunt-cli
 
 # setup path for codebase
 RUN mkdir -p /home/docker/code

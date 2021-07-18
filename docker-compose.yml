@@ -3,6 +3,7 @@ version: '3'
 services:
 
   intersomething-atm:
+    restart: always
     build:
       context: ./
       dockerfile: ./docker/Dockerfile
@@ -11,4 +12,3 @@ services:
       - .:/home/docker/code
     ports:
       - "8080:8080"
-
